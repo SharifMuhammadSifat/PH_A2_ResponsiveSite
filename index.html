@@ -13,17 +13,27 @@
 <body class="bg-[#1A0B2E] font-inter text-white">
     <header class="py-4">
 
-        <nav class="mx-48 flex justify-between items-center">
-            <h2 class="text-4xl font-bold "><span>Tech</span><span class="bg-gradient-to-t from-orange-600 to-purple-700 bg-clip-text text-transparent">Wave</span></h2>
-            <ul class="flex gap-8 text-lg font-medium">
-                <li><a href="#" class="text-white font-medium text-[1rem]">About</a></li>
-                <li><a href="#" class="text-white font-medium text-[1rem]">Episodes</a></li>
-                <li><a href="#" class="text-white font-medium text-[1rem]">Host</a></li>
-            </ul>
-            <button class="flex bg-gradient-to-tr from-orange-600 to-purple-700 px-4 py-3 rounded-full text-white font-medium items-center gap-1 align-middle hover:scale-130 transition-transform duration-300 cursor-pointer"> 
-                Subscribe
-                <i class="fa-solid fa-arrow-right" style="color: #ffffff;"></i>
-            </button>
+        <nav>
+            <div class="mx-48 flex justify-between items-center max-[576px]:hidden">
+                <h2 class="text-4xl font-bold "><span>Tech</span><span class="bg-gradient-to-t from-orange-600 to-purple-700 bg-clip-text text-transparent">Wave</span></h2>
+                <ul class="flex gap-8 text-lg font-medium">
+                    <li><a href="#" class="text-white font-medium text-[1rem]">About</a></li>
+                    <li><a href="#" class="text-white font-medium text-[1rem]">Episodes</a></li>
+                    <li><a href="#" class="text-white font-medium text-[1rem]">Host</a></li>
+                </ul>
+                <button class="flex bg-gradient-to-tr from-orange-600 to-purple-700 px-4 py-3 rounded-full text-white font-medium items-center gap-1 align-middle hover:scale-130 transition-transform duration-300 cursor-pointer"> 
+                    Subscribe
+                    <i class="fa-solid fa-arrow-right" style="color: #ffffff;"></i>
+                </button>
+            </div>
+
+            <div>
+                <div class="mx-5 my-4 flex justify-between items-center min-[577px]:hidden">
+                    <h2 class="text-4xl font-bold "><span>Tech</span><span class="bg-gradient-to-t from-orange-600 to-purple-700 bg-clip-text text-transparent">Wave</span></h2>
+                    <img src="assets/hamburger-menu.png" alt="menu" class="w-6 h-6 hover:scale-150 transition-transform duration-300 cursor-pointer">
+                </div>
+            </div>
+
 
         </nav>
 
