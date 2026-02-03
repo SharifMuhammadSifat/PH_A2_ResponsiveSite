@@ -11,10 +11,10 @@
     <title>Document</title>
 </head>
 <body class="bg-[#1A0B2E] font-inter text-white">
-    <header class="py-4">
+    <header class="width-full">
 
         <nav>
-            <div class="mx-48 flex justify-between items-center max-[576px]:hidden">
+            <div class="mx-48 py-6 flex justify-between items-center  max-[576px]:hidden">
                 <h2 class="text-4xl font-bold "><span>Tech</span><span class="bg-gradient-to-t from-orange-600 to-purple-700 bg-clip-text text-transparent">Wave</span></h2>
                 <ul class="flex gap-8 text-lg font-medium">
                     <li><a href="#" class="text-white font-medium text-[1rem]">About</a></li>
@@ -33,13 +33,38 @@
                     <img src="assets/hamburger-menu.png" alt="menu" class="w-6 h-6 hover:scale-150 transition-transform duration-300 cursor-pointer">
                 </div>
             </div>
-
+            <hr class="border-[#412567]">
 
         </nav>
 
     </header>
 
-    <main></main>
+    <main class="width-full h-[760px] bg-[url('/assets/hero-bg.png')] bg-no-repeat bg-cover bg-center flex justify-center items-center">
+        <div class=" flex flex-col items-center">
+            <div class="border-2 relative">
+                <img src="assets/hero-circle.png" class="w-[21rem] h-[21rem] static">
+                <img src="assets/microphone.png" class="w-[12rem] h-[12rem] absolute top-17 left-18.75">
+                <div class="text-[#1A0B2E] text-[1rem] font-semibold bg-[#00FF88] rounded-full h-[38px] w-[75px] flex items-center justify-center shadow-[0_0_20px_#00FF88] absolute top-5 right-3">
+                    <p>NEW</p>
+                </div>
+            </div>
+            <div class="flex flex-col items-center justify-center" >
+                <h1 class="text-[3.75rem] font-extraboldbold text-center mt-8 mb-4">TechWave</h1>
+                <p class="text-center text-lg mb-6 px-4 max-w-2xl">Your daily dose of tech insights, productivity hacks, and personal growth</p>
+                <div class="flex gap-2">
+                    <button class=" h-11 w-48 flex bg-gradient-to-tr px-5 py-3 from-orange-600 to-purple-700 px-6 py-3 rounded-full text-white font-medium items-center gap-2 align-middle hover:scale-110 transition-transform duration-300 cursor-pointer"> 
+                        <p class="font-semibold text-[16px]">Listen On Spotify</p>
+                        <img src="assets/spotify.png" class="h-5 w-5">
+                    </button>
+                    <button class="flex items-center justify-center gap-2 px-5 py-3 h-[44px] w-[147px] border-2 border-[#00FF88] rounded-full">
+                        <img src="assets/message.png" class="h-5 w-5">
+                        Subscribe
+                    </button>
+                </div>
+            </div>
+
+        </div>
+    </main>
 
     <footer></footer>
 
